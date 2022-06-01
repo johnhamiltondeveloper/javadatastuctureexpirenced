@@ -42,5 +42,9 @@ public class First {
             System.out.println(a);
         }
         System.out.println("Hello everyone");
+
+        employeeList.forEach(employee -> {System.out.println(employee.getId());});
+
+        names.forEach(name -> {System.out.println(name);});
     }
 }
