@@ -8,7 +8,13 @@ import java.util.List;
 public class First {
     public static void main(String args[]){
 
+        // add 3 numbers
+        int x = Integer.parseInt(args[0]);
+        int y = Integer.parseInt(args[1]);
+        int z = Integer.parseInt(args[2]);
 
+        int sum = x + y + z;
+        System.out.println("sum of XYZ = " + sum);
 
         List<String> names = new ArrayList<String>();
 
