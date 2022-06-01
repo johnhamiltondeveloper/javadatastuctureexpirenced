@@ -43,8 +43,13 @@ public class First {
         }
         System.out.println("Hello everyone");
 
-        employeeList.forEach(employee -> {System.out.println(employee.getId());});
+        employeeList.forEach(employee -> {System.out.println(employee.toString());});
 
         names.forEach(name -> {System.out.println(name);});
+
+        System.out.println(employeeList.contains(new Employee("Mary", "Smith", 22)));
+        System.out.println(employeeList.indexOf(new Employee("mary","smith",22)));
+
+        employeeList.remove(2);
     }
 }
