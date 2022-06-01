@@ -4,6 +4,7 @@ import lists.classes.Employee;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
 
 public class First {
     public static void main(String args[]){
@@ -16,7 +17,7 @@ public class First {
         int sum = x + y + z;
         System.out.println("sum of XYZ = " + sum);
 
-        List<String> names = new ArrayList<String>();
+        List<String> names = new Vector<String>();
 
         names.add("name");
         names.add("bob");
